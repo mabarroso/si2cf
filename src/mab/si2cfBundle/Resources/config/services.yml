@@ -1,0 +1,7 @@
+parameters:
+#    mabsi2cf.example.class: mab\si2cfBundle\Example
+
+services:
+#    mabsi2cf.example:
+#        class: %mabsi2cf.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

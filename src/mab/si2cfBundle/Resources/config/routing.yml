@@ -1,0 +1,3 @@
+mabsi2cf_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: mabsi2cfBundle:Default:index }
