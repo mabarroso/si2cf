@@ -18,7 +18,16 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "kriswallsmith/assetic": "1.1.*@dev"
+        "kriswallsmith/assetic": "1.1.*@dev",
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4.*",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+        
+        "solarium/solarium": "3.0.1",
+        "twig/twig": "1.*",
+        "leafo/lessphp": "0.3.8"
     },
     "scripts": {
         "post-install-cmd": [
@@ -40,5 +49,8 @@
         "branch-alias": {
             "dev-master": "2.1-dev"
         }
+    },
+    "config": {
+        "bin-dir": "bin/"
     }
 }
