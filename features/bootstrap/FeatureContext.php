@@ -21,4 +21,12 @@ class FeatureContext extends MinkContext
     {
         $this->getSession()->visit("/404");
     }
+
+    /**
+     * @Given /^the response should contain a proper title$/
+     */
+    public function theResponseShouldContainAProperTitle()
+    {
+        throw new PendingException();
+    }
 }
