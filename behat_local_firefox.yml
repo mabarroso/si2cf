@@ -1,0 +1,11 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: http://localhost/si2cf/app_dev.php
+            goutte: ~
+            selenium2: ~
+            javascript_session:     selenium2
+            browser_name: 'firefox'
+            selenium2:
+              wd_host: http://localhost:4444/wd/hub
+              capabilities: {"browser": "firefox", "version": "ANY", "browserVersion": "ANY", platform: "LINUX"}
