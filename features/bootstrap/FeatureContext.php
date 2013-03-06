@@ -19,7 +19,7 @@ class FeatureContext extends MinkContext
      */
     public function iGoToAnInexistentPage()
     {
-        $this->getSession()->visit("/404");
+        $this->getSession()->visit("404");
     }
 
     /**
