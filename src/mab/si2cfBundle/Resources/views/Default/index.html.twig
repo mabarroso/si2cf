@@ -1,1 +1,7 @@
-Hello {{ name }}!
+{% extends "mabsi2cfBundle::layout.html.twig" %}
+
+{% block title "Hello " ~ name %}
+
+{% block body %}
+   Hello {{ name }}!
+{% endblock %}
