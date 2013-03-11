@@ -7,7 +7,9 @@
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <section id="content">
+            {% block body %}{% endblock %}
+        </section>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
